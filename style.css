@@ -1,0 +1,121 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+}
+
+.intro_bg {
+    background-image: url("이미지/intro.png");
+    width: 100%;
+    height: 753px;
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.searchArea {
+    width: 290px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.searchArea > form {
+    display: flex;
+    flex: 1;
+}
+
+.searchArea > form > input {
+    border: none;
+    flex: 1;
+    height: 100%;
+    padding: 0 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 30px 0 0 30px;
+    font-size: 16px;
+}
+
+.searchArea > form > button {
+    background-color: #007BFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.searchArea > form > button:hover {
+    background-color: #0056b3;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+}
+
+.nav > li {
+    margin-left: 84px;
+}
+
+#loginStatus {
+    margin-left: auto;
+}
+
+#loginStatus a {
+    color: #007BFF;
+}
+
+.loginArea {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.loginArea form {
+    margin-top: 20px;
+}
+
+.loginArea input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginArea button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ... 나머지 스타일 코드 ... */
